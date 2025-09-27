@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
-import Banner from "../Components/Banner";
-import TicketCard from "../Components/TicketCard"
-import TaskStatus from "../components/TaskStatus";
-import ResolvedTask from "../Components/ResolvedTasks";
-import Container from "../components/Container";
-import Footer from "../components/Footer";
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import TicketCard from "./components/TicketCard";
+import TaskStatus from "./components/TaskStatus";
+import ResolvedTask from "./components/ResolvedTasks";
+import Container from "./components/Container";
+import Footer from "./components/Footer";
+
 
 // Ticket JSON Data
 const ticketsData = [

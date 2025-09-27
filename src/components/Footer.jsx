@@ -1,5 +1,5 @@
 import Container from "./Container";
-
+import { FaXTwitter, FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-300 px-8 py-12 ">
@@ -40,10 +40,22 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-2">Social Links</h4>
             <ul className="space-y-1 text-sm">
-              <li>@CS — Ticket System</li>
-              <li>@CS — Ticket System</li>
-              <li>@CS — Ticket System</li>
-              <li>support@cst.com</li>
+              <li className="flex items-center space-x-3">
+              <FaXTwitter className="text-xl" />
+              <span>@CS — Ticket System</span>
+              </li>
+              <li className="flex items-center space-x-3">
+              <FaLinkedin className="text-xl" />
+              <span>@CS — Ticket System</span>
+              </li>
+              <li className="flex items-center space-x-3">
+              <FaFacebook className="text-xl" />
+              <span>@CS — Ticket System</span>
+              </li>
+              <li className="flex items-center space-x-3">
+              <FaEnvelope className="text-xl" />
+              <span>support@cst.com</span>
+              </li>
             </ul>
           </div>
         </div>
